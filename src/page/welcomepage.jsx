@@ -10,10 +10,10 @@ export default function welcomepage({user}) {
     return <Navigate to="/Home"></Navigate>
   }
   return (
-    <div className="px-12 h-dvh w-full absolute top-0 left-0 -z-10 overflow-hidden">
+    <div className="px-12 max-sm:px-4 h-dvh w-full absolute top-0 left-0 -z-10 overflow-hidden">
       <div className="flex justify-center items-center flex-col w-full h-[90%]">
-        <h1 className="text-6xl tracking-tighter font-extrabold max-sm:text-center max-sm:mb-8">Welcome to Quixy</h1>
-        <p className="text-gray-500 max-sm:text-center text-center px-96 py-8">
+        <h1 className=" max-sm:text-4xl text-6xl tracking-tighter font-extrabold max-sm:text-center max-sm:mb-8">Welcome to Quixy</h1>
+        <p className="max-sm:px-4 max-sm:py-0 text-gray-500 max-sm:text-center text-center px-96 py-8">
         <span className="font-bold">Quixy</span> is the chat app that makes conversations quick, easy, and fun. With a modern design and intuitive features, <span className="font-bold">Quixy</span> is where connections happen effortlessly. Dive into seamless chats and experience a touch of quirky charm. Welcome to <span className="font-bold">Quixy</span>—where every chat sparks connection.
         </p>
         <div className="flex gap-8 mt-8">
